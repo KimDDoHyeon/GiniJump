@@ -24,10 +24,21 @@ public class Destroy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-      
-        myPlat = (GameObject)Instantiate(platformPrefab, new Vector3(Random.Range(-2.5f, 2.2f), player.transform.position.y + (2 + Random.Range(0.5f, 1f))), Quaternion.identity);
+        if (Random.Range(1, 6) > 1)
+        {
+            myPlat = (GameObject)Instantiate(platformPrefab, new Vector2(Random.Range(-2.5f, 2.2f), player.transform.position.y + (2 + Random.Range(0.5f, 1f))), Quaternion.identity);
+        }
+        else
+        {
+            myPlat = (GameObject)Instantiate(springPrefab, new Vector2(Random.Range(-2.5f, 2.2f), player.transform.position.y + (2 + Random.Range(0.5f, 20f))), Quaternion.identity);
+            myPlat = (GameObject)Instantiate(catPrefab, new Vector2(Random.Range(-0.5f, 4.2f), player.transform.position.y + (2 + Random.Range(0.5f, 100f))), Quaternion.identity);
+            myPlat = (GameObject)Instantiate(birdPrefab, new Vector2(Random.Range(-2.5f, 2.2f), player.transform.position.y + (2 + Random.Range(0.5f, 100f))), Quaternion.identity);
+        }
+
         Destroy(collision.gameObject);
 
 
     }
+
+
 }

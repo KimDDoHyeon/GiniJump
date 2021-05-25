@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 280443614}
   m_Layer: 0
   m_Name: korgini
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -337,8 +337,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 67737645}
   topScore: 0
---- !u!58 &280443614
-CircleCollider2D:
+--- !u!70 &280443614
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -350,9 +350,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.092125416, y: -0.092125416}
-  serializedVersion: 2
-  m_Radius: 1.4866209
+  m_Offset: {x: 0.16626859, y: 0.270185}
+  m_Size: {x: 2.1734462, y: 3.960826}
+  m_Direction: 0
 --- !u!50 &280443615
 Rigidbody2D:
   serializedVersion: 4
@@ -807,7 +807,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906284048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28000006, y: 0.11999999, z: -16}
+  m_LocalPosition: {x: -0.28000006, y: 7.14, z: -16}
   m_LocalScale: {x: 4, y: 4, z: 2}
   m_Children:
   - {fileID: 730294832}
@@ -1289,7 +1289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031123169}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.5199995, y: -11.720001, z: 0}
+  m_LocalPosition: {x: -8.37, y: -14.51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 280443617}
@@ -1309,9 +1309,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 280443612}
   platformPrefab: {fileID: 44946366415616263, guid: eb52185f429d41a41aaf648ecc843ff2, type: 3}
-  springPrefab: {fileID: 0}
-  catPrefab: {fileID: 0}
-  birdPrefab: {fileID: 0}
+  springPrefab: {fileID: 6399498560423770230, guid: 69281efa0d01863499394092d850c4ee, type: 3}
+  catPrefab: {fileID: 2370458369559456355, guid: 9df8a22815a8c024ba4200de037c27cf, type: 3}
+  birdPrefab: {fileID: 1783085014963001442, guid: 2631dc2a6211e01499483084854f5670, type: 3}
 --- !u!61 &2031123172
 BoxCollider2D:
   m_ObjectHideFlags: 0
