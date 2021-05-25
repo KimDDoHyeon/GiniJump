@@ -26,6 +26,10 @@ public class player_1 : MonoBehaviour
             topScore = transform.position.y;
         }
         scoreText.text = "Score: " + Mathf.Round(topScore).ToString();
+        if (rb2d.velocity.y < -10)
+        {
+            SceneManager.LoadScene("Start");
+        }
     }
     void FixedUpdate()
     {
