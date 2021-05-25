@@ -8,7 +8,7 @@ public class Destroy : MonoBehaviour
     public GameObject platformPrefab;
     public GameObject springPrefab;
     public GameObject catPrefab;
-    public GameObject myPlat;
+    private GameObject myPlat;
     public GameObject birdPrefab;
     // Start is called before the first frame update
     void Start()
@@ -25,8 +25,8 @@ public class Destroy : MonoBehaviour
     {
 
       
-        myPlat = (GameObject)Instantiate(platformPrefab, new Vector2(Random.Range(-2.5f, 2.2f), player.transform.position.y + (14 + Random.Range(0.1f, 1f))), Quaternion.identity);
-       
+        myPlat = (GameObject)Instantiate(platformPrefab, new Vector3(Random.Range(-2.5f, 2.2f), player.transform.position.y + (2 + Random.Range(0.5f, 1f))), Quaternion.identity);
+        Destroy(collision.gameObject);
 
 
     }
