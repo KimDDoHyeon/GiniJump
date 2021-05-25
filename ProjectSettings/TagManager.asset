@@ -10,6 +10,7 @@ TagManager:
   - Quit
   - Rank_Home_Button
   - Wall
+  - PauseButton
   layers:
   - Default
   - TransparentFX

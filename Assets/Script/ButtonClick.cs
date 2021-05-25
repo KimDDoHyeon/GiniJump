@@ -23,5 +23,9 @@ public class ButtonClick : MonoBehaviour
         if (CompareTag("Ranking")) SceneManager.LoadScene("Ranking");
         if (CompareTag("Option")) SceneManager.LoadScene("Option");
         if (CompareTag("Quit")) Application.Quit();
+        if (CompareTag("PauseButton"))
+        {
+            //일시정지 구현 학교에서 배운대로
+        }
     }
 }
