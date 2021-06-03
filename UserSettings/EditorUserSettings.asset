@@ -23,10 +23,14 @@ EditorUserSettings:
     RecentlyUsedScenePath-5:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 22424703114646680e0b0227036c7a170f070c6439262f2434
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c741f0412196439262f2434
+=======
+      value: 22424703114646680e0b0227036c6a2337590d24253c3f
+>>>>>>> parent of 024ea29 (게임선택화면 및 기타 수정)
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c6a2337590d24253c3f
@@ -43,6 +47,7 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c741f0412196439262f2434
+<<<<<<< HEAD
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c6c0417050c6439262f2434
@@ -50,12 +55,17 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedScenePath-6:
       value: 22424703114646680e0b0227036c790217191b2f623d28393930
+=======
+>>>>>>> parent of 024ea29 (게임선택화면 및 기타 수정)
       flags: 0
     RecentlyUsedScenePath-7:
       value: 22424703114646680e0b0227036c741f0412196439262f2434
       flags: 0
     RecentlyUsedScenePath-8:
       value: 22424703114646680e0b0227036c6c0417050c6439262f2434
+<<<<<<< HEAD
+>>>>>>> parent of 024ea29 (게임선택화면 및 기타 수정)
+=======
 >>>>>>> parent of 024ea29 (게임선택화면 및 기타 수정)
       flags: 0
     vcSharedLogLevel:
